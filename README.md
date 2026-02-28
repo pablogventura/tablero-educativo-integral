@@ -4,8 +4,7 @@ Sitio estático de presentación del **Tablero de Gestión Integral**: propuesta
 
 ## Contenido
 
-- **index.html** — Página principal (explorador interactivo del tablero).
-- **brochure.html** — Mismo contenido, accesible también como `/brochure.html`.
+- **index.html** — Página principal (explorador interactivo del tablero). Es la página por defecto del sitio.
 
 ## GitHub Pages
 
@@ -35,8 +34,7 @@ El archivo `.nojekyll` evita que GitHub trate el sitio como Jekyll y sirve los H
 Desde la raíz del proyecto donde está `web/`:
 
 ```bash
-cp web/brochure.html tablero-educativo-integral/index.html
-cp web/brochure.html tablero-educativo-integral/brochure.html
+cp web/index.html tablero-educativo-integral/index.html
 cd tablero-educativo-integral && git add -A && git status
 ```
 
